@@ -4,4 +4,6 @@ project(ProjetCEfrei C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(ProjetCEfrei main.c
+        functions.c
+        functions.h
 )
