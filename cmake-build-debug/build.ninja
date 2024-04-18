@@ -55,18 +55,6 @@ build CMakeFiles/ProjetCEfrei.dir/main.c.obj: C_COMPILER__ProjetCEfrei_unscanned
   OBJECT_DIR = CMakeFiles\ProjetCEfrei.dir
   OBJECT_FILE_DIR = CMakeFiles\ProjetCEfrei.dir
 
-build CMakeFiles/ProjetCEfrei.dir/functions.c.obj: C_COMPILER__ProjetCEfrei_unscanned_Debug C$:/Users/ayuna/CLionProjects/ProjetCEfrei/functions.c || cmake_object_order_depends_target_ProjetCEfrei
-  DEP_FILE = CMakeFiles\ProjetCEfrei.dir\functions.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProjetCEfrei.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProjetCEfrei.dir
-
-build CMakeFiles/ProjetCEfrei.dir/functions2.c.obj: C_COMPILER__ProjetCEfrei_unscanned_Debug C$:/Users/ayuna/CLionProjects/ProjetCEfrei/functions2.c || cmake_object_order_depends_target_ProjetCEfrei
-  DEP_FILE = CMakeFiles\ProjetCEfrei.dir\functions2.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\ProjetCEfrei.dir
-  OBJECT_FILE_DIR = CMakeFiles\ProjetCEfrei.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ProjetCEfrei
@@ -75,7 +63,7 @@ build CMakeFiles/ProjetCEfrei.dir/functions2.c.obj: C_COMPILER__ProjetCEfrei_uns
 #############################################
 # Link the executable ProjetCEfrei.exe
 
-build ProjetCEfrei.exe: C_EXECUTABLE_LINKER__ProjetCEfrei_Debug CMakeFiles/ProjetCEfrei.dir/main.c.obj CMakeFiles/ProjetCEfrei.dir/functions.c.obj CMakeFiles/ProjetCEfrei.dir/functions2.c.obj
+build ProjetCEfrei.exe: C_EXECUTABLE_LINKER__ProjetCEfrei_Debug CMakeFiles/ProjetCEfrei.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ProjetCEfrei.dir
