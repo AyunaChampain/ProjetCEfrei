@@ -15,7 +15,8 @@ COLUMN *create_column(char* title)
 
 int insert_value(COLUMN* col, int value)
 {
-    int taille = (col -> TL) ;
+    int taille = (col->TL) ;
+    printf("test");
     if (taille < REALOC_SIZE)
     {
         (col -> val[taille + 1]) = value;
