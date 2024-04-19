@@ -11,7 +11,7 @@ typedef struct
     int* col[REALOC_SIZE];
 }CDataframe;
 
-CDataframe *create_empty();
+CDataframe create_empty();
 void enter_value(CDataframe* Cdf);
 void initialize(CDataframe * Cdf);
 
@@ -20,13 +20,12 @@ void print_limited_line(CDataframe* Cdf, int lim);
 void print_limited_col(CDataframe* Cdf, int lim);
 
 void add_line(CDataframe* Cdf);
-void del_line(CDataframe* Cdf);
+void del_line(CDataframe* Cdf, int rank);
 void add_col(CDataframe* Cdf);
-void del_col(CDataframe* Cdf);
+void del_col(CDataframe* Cdf, int rank);
 
-void rename_title(CDataframe*Cdf, char title);
-int search_val(CDataframe* Cdf, int val);
-void exist(CDataframe* Cdf, int val);
+void rename_title(CDataframe*Cdf, int rank,  char title);
+int exist(CDataframe* Cdf, int val);
 void change_val(CDataframe* Cdf, int line, int col);
 void print_title(CDataframe* Cdf);
 

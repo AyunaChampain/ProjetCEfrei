@@ -20,7 +20,7 @@ int insert_value(COLUMN* col, int value);
 void delete_column(COLUMN **col);
 void print_col(COLUMN* col);
 
-int occur_col(COLUMN* col, int x);
+int occur(COLUMN* col, int x);
 int pos_val_col(COLUMN* col, int x);
 int supp_x_col(COLUMN* col, int x);
 int inf_x_col(COLUMN* col, int x);
