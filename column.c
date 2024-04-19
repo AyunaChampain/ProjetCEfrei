@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-#include "functions.h"
+#include "column.h"
 
 COLUMN *create_column(char* title)
 {
@@ -29,3 +29,17 @@ int insert_value(COLUMN* col, int value)
         return 0 ;
     }
 }
+
+/*void delete_column(COLUMN **col) //Free allocated memory
+{
+}*/
+
+/*void print_col(COLUMN* col)
+{
+}*/
+
+/*int occur_col(COLUMN* col, int x)
+int pos_val_col(COLUMN* col, int x)
+int supp_x_col(COLUMN* col, int x)
+int inf_x_col(COLUMN* col, int x)
+int equ_x_col(COLUMN* col, int x)*/
