@@ -1,6 +1,6 @@
 https://github.com/AyunaChampain/ProjetCEfrei
 
-Ce projet, dnot le but est d'intégrer les DataFrame au sein de notre programme
+Ce projet, dont le but est d'intégrer les DataFrame au sein de notre programme
 afin de créer un tableur.
 Pour cela, nous allons utiliser des colonnes contenant uniquement des entiers,
 des CDataframe sous forme de tableau dynamique et
