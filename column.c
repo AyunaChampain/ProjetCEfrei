@@ -25,14 +25,15 @@ int insert_value(COLUMN* col, int value)
     }
     else
     {
-        //(col->val) = realloc(col->val, 512);
+        //(col->val) = realloc(col->val, 256);
         return 0 ;
     }
 }
 
-/*void delete_column(COLUMN **col) //Free allocated memory
+void delete_column(COLUMN **col) //Free allocated memory
 {
-}*/
+    free(col);
+}
 
 /*void print_col(COLUMN* col)
 {
