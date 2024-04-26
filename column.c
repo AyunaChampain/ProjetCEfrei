@@ -35,9 +35,15 @@ void delete_column(COLUMN **col) //Free allocated memory
     free(col);
 }
 
-/*void print_col(COLUMN* col)
+void print_col(COLUMN* col)
 {
-}*/
+    int i ;
+
+    for (i = 0; i < (col -> TL); i++)
+    {
+        printf("[%d] %d", i, col -> val[i]);
+    }
+}
 
 /*int occur_col(COLUMN* col, int x)
 int pos_val_col(COLUMN* col, int x)
