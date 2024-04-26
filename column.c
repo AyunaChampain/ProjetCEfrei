@@ -39,7 +39,15 @@ void delete_column(COLUMN **col) //Free allocated memory
 {
 }*/
 
-/*int occur_col(COLUMN* col, int x)*/
+int occur_col(COLUMN* col, int x){
+    int i;
+    int cpt;
+    for(i = 0; i < REALOC_SIZE ; i++){
+        if (col[i] == x){
+            cpt++;
+        }
+    }
+}
 int pos_val_col(COLUMN* col, int x)
 {
     int valeur;
