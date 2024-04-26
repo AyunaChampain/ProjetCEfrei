@@ -39,8 +39,14 @@ void delete_column(COLUMN **col) //Free allocated memory
 {
 }*/
 
-/*int occur_col(COLUMN* col, int x)
+/*int occur_col(COLUMN* col, int x)*/
 int pos_val_col(COLUMN* col, int x)
-int supp_x_col(COLUMN* col, int x)
+{
+    int valeur;
+    valeur = col[x];
+    return valeur;
+}
+
+/*int supp_x_col(COLUMN* col, int x)
 int inf_x_col(COLUMN* col, int x)
 int equ_x_col(COLUMN* col, int x)*/
