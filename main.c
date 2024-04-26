@@ -20,7 +20,7 @@ int main() {
     delete_column(&mycol);
     print_col(mycol);
 
-    occur(mycol, val);
+    /*occur(mycol, val);
     pos = pos_val_col(mycol, val);
     supp = supp_x_col(mycol, val);
     inf = inf_x_col(mycol, val);
@@ -61,6 +61,6 @@ int main() {
     nb_col = print_nb_col(&Cdf);
     equ = print_equ(&Cdf, val);
     sup = print_sup(&Cdf, val);
-    inferior = print_inf(&Cdf, val);
+    inferior = print_inf(&Cdf, val);*/
     return 0;
 }
