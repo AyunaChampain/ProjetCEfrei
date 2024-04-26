@@ -29,8 +29,8 @@ int exist(CDataframe* Cdf, int val);
 void change_val(CDataframe* Cdf, int line, int col);
 void print_title(CDataframe* Cdf);
 
-int pint_nb_line(CDataframe* Cdf);
-int pint_nb_col(CDataframe* Cdf);
+int print_nb_line(CDataframe* Cdf);
+int print_nb_col(CDataframe* Cdf);
 int print_equ(CDataframe* Cdf, int x);
 int print_sup(CDataframe* Cdf, int x);
 int print_inf(CDataframe* Cdf, int x);

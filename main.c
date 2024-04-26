@@ -57,8 +57,8 @@ int main() {
     int inferior;
     int sup;
 
-    nb_li = pint_nb_line(&Cdf);
-    nb_col = pint_nb_col(&Cdf);
+    nb_li = print_nb_line(&Cdf);
+    nb_col = print_nb_col(&Cdf);
     equ = print_equ(&Cdf, val);
     sup = print_sup(&Cdf, val);
     inferior = print_inf(&Cdf, val);
