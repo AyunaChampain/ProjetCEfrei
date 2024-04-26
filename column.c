@@ -38,8 +38,16 @@ void delete_column(COLUMN **col) //Free allocated memory
 /*void print_col(COLUMN* col)
 {
 }*/
-
-/*int occur_col(COLUMN* col, int x)
+int occur_col(COLUMN* col, int x){
+    int i;
+    int cpt;
+    for(i = 0; i < REALOC_SIZE ; i++){
+        if (col[i] == x){
+            cpt++
+        }
+    }
+}
+/*
 int pos_val_col(COLUMN* col, int x)
 int supp_x_col(COLUMN* col, int x)
 int inf_x_col(COLUMN* col, int x)
